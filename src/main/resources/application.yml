@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: kitchensink
+  data:
+    mongodb:
+      database: kitchensink
+      host: localhost
+      port: 27018
+
+de.flapdoodle.mongodb.embedded.version: 6.0.2
